@@ -10,7 +10,7 @@
  }
 
  a {
-   color: #00C9FF;
+   color: black;
    text-decoration: none;
    font-weight: 600;
  }
@@ -52,9 +52,60 @@
    padding: 9px 20px;
    border: 1px solid rgba(255, 255, 255, 0.50);
    border-radius: 10px;
+   text-decoration: none;
  }
 
  footer {
    font-size: 12px;
    padding: 10px;
+ }
+
+ .Title {
+   font-size: 20px;
+   text-align: center;
+   padding: 20px 0px 50px 0px;
+ }
+
+ .Title p {
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+ }
+
+ .MeetGroup {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  align-items: center;
+  justify-items: center;
+ }
+
+ .MeetGroup p {
+   font-size: 15px;
+ }
+
+ h2 {
+   font-size: 18px;
+ }
+
+ h3 {
+   font-size: 15px;
+ }
+
+ .OurProcess {
+   background-color: #efefef;
+   height: 600px;
+ }
+
+ .Underline {
+   border-bottom: 3px solid #FFED00;
+ }
+
+ .ContactUs span {
+  text-align: center;
+  border-bottom: 3px solid #FFED00;
+  width: auto;
  }
