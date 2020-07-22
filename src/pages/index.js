@@ -61,7 +61,7 @@ const IndexPage = () => (
     <div className="ContactUs">
       <div className="Title">
         <h1>Contact US</h1>
-        <p>Email us at<span className="Underline"><Link to="/">uxui@dxcdtc.com</Link></span>Hope to hear from you soon!</p>
+        <p>Email us at<span className="Underline"><Link to="/">uxui@dxcdtc.com</Link></span></p><p>Hope to hear from you soon!</p>
       </div>
     </div>
     
