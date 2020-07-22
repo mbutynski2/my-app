@@ -13,7 +13,7 @@ const IndexPage = () => (
         <h1>User Experience is essential for digital transformation</h1>
         <p>Get to know the UX team, our process, <br />and some of our latest works from the New Orleans Digital Delivery Center.</p>
         <div>
-        <Link to="/using-typescript/">Let's Talk</Link>
+        <Link to="/using-typescript/">Portfolio</Link>
         </div>
       </div>
     </div>
