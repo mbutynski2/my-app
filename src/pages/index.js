@@ -10,11 +10,11 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>User Experience is essential for digital transformation</h1>
+        <h1>User Experience is <span className="Underline">essential</span> for digital transformation</h1>
         <p>Get to know the UX team, our process, <br />and see some of our latest works from the New Orleans Digital Delivery Center.</p>
-        <div>
+        {/* <div>
         <Link to="/using-typescript/">Portfolio</Link>
-        </div>
+        </div> */}
       </div>
     </div>
     <div className="Title">
