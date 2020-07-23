@@ -20,31 +20,31 @@ const IndexPage = () => (
     <div className="Title">
       <h1>Meet the Team</h1>
       <div className="MeetGroup">
-        <div>
+        <div className="NameBlock">
           <Link to="/"><img src={require ('../images/profile_mandi@2x.png')} width="155" /></Link>
           <h2>Mandi Butynski</h2>
           <h3>UX/ UI Capability Lead</h3>
           <p><span className="Underline"><Link to="/">Learn more</Link></span></p>
         </div>
-        <div>
+        <div className="NameBlock">
           <Link to="/"><img src={require ('../images/profile_katie@2x.png')} width="155" /></Link>
           <h2>Katie Riles</h2>
           <h3>Sr. UX Designer</h3>
           <p><span className="Underline"><Link to="/">Learn more</Link></span></p>
         </div>
-        <div>
+        <div className="NameBlock">
           <Link to="/"><img src={require ('../images/profile_mansi@2x.png')} width="155" /></Link>
           <h2>Mansi Sundriyal</h2>
           <h3>Sr. UX/UI Developer</h3>
           <p><span className="Underline"><Link to="/">Learn more</Link></span></p>
         </div>
-        <div>
+        <div className="NameBlock">
           <Link to="/"><img src={require ('../images/profile_merilly@2x.png')} width="155" /></Link>
           <h2>Merilly Ruglas</h2>
           <h3>AV/VR Designer</h3>
           <p><span className="Underline"><Link to="/">Learn more</Link></span></p>
         </div>
-        <div>
+        <div className="NameBlock">
           <Link to="/"><img src={require ('../images/profile_vicky@2x.png')} width="155" /></Link>
           <h2>Vicky Tran</h2>
           <h3>UX/UI Developer</h3>

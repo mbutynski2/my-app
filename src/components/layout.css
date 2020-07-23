@@ -110,3 +110,30 @@
   border-bottom: 3px solid #FFED00;
   width: auto;
  }
+
+
+
+
+
+ @media (max-width: 640px) {
+    .Hero h1 {
+        font-size: 40px;
+    }
+    .Hero p {
+      font-size: 20px;
+    }
+    .Hero {
+      max-height: 500px;
+    }
+ }
+
+ @media (max-width: 800px) {
+  .MeetGroup {
+    grid-template-columns: repeat(2, auto);
+    line-height: 1.0;
+  }
+  
+  .NameBlock {
+    padding: 20px;
+  }
+}
