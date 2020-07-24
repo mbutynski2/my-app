@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Card from "../components/Card"
 
 const IndexPage = () => (
   <Layout>
@@ -57,6 +58,21 @@ const IndexPage = () => (
         <h1>Our Process</h1>
         <p>Together we have crafted a method<br /> of delivering exeptional user experiences<br /> that drive results and delight.</p>
       </div>
+        <div className="Cards">
+          <div className="CardGroup">
+            <Card title="React for Designers"
+            text="12 sections"
+            image={require('../images/wallpaper2.jpg')} />
+            <Card title="React for Designers"
+            text="12 sections"
+            image={require('../images/wallpaper2.jpg')} />
+            <Card title="React for Designers"
+            text="12 sections"
+            image={require('../images/wallpaper2.jpg')} />
+            <Card title="React for Designers"
+            text="12 sections"
+            image={require('../images/wallpaper2.jpg')} />
+          </div>
     </div>
     <div className="ContactUs">
       <div className="Title">
@@ -64,9 +80,8 @@ const IndexPage = () => (
         <p>Email us at<span className="Underline"><Link to="/">uxuidtcnola@dxc.com</Link></span></p><p>Talk soon!</p>
       </div>
     </div>
-    
-  </Layout>
+  </div>
+</Layout>    
 )
 
 export default IndexPage
-

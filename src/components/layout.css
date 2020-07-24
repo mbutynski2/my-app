@@ -149,8 +149,32 @@ a:hover img {
  }
 
  .OurProcess {
-   background-color: #efefef;
+   /* background-color: #efefef;  */
    height: 600px;
+ }
+
+ .CardGroup {
+   margin: 20px 40px 100px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 20px;
+   justify-items: center;
+   z-index: -1;
+ }
+
+ @media (max-width: 1060px) {
+  .CardGroup {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+ }
+
+ @media (max-width: 720px) {
+  .CardGroup {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+    margin: 0px 40px 100px;
+  }
  }
 
  .Underline {
