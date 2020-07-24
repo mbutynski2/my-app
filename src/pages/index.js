@@ -11,7 +11,7 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1>User Experience is <span className="Underline">essential</span> for digital transformation</h1>
-        <p>Get to know the UX team, our process, <br />and see some of our latest works from the New Orleans Digital Delivery Center.</p>
+        <p>Get to know the UX team, our process, <br />and see some of our latest works from the <br />New Orleans Digital Delivery Center.</p>
         {/* <div>
         <Link to="/using-typescript/">Portfolio</Link>
         </div> */}
@@ -55,13 +55,13 @@ const IndexPage = () => (
     <div className="OurProcess">
       <div className="Title">
         <h1>Our Process</h1>
-        <p>Together we have crafted a method of delivering exeptional user experiences that drive results and delight.</p>
+        <p>Together we have crafted a method<br /> of delivering exeptional user experiences<br /> that drive results and delight.</p>
       </div>
     </div>
     <div className="ContactUs">
       <div className="Title">
         <h1>Contact US</h1>
-        <p>Email us at<span className="Underline"><Link to="/">uxui@dxcdtc.com</Link></span></p><p>Hope to hear from you soon!</p>
+        <p>Email us at<span className="Underline"><Link to="/">uxui@dxcdtc.com</Link></span></p><p>Talk soon!</p>
       </div>
     </div>
     

@@ -105,8 +105,13 @@
    border-bottom: 3px solid #FFED00;
  }
 
+ .ContactUs {
+   line-height: 40px;
+ }
+
  .ContactUs span {
   text-align: center;
+  line-height: 20px;
   border-bottom: 3px solid #FFED00;
   width: auto;
  }
@@ -116,6 +121,10 @@
 
 
  @media (max-width: 640px) {
+    .HeroGroup {
+      padding: 100px 20px;
+    }
+
     .Hero h1 {
         font-size: 40px;
     }
@@ -123,7 +132,7 @@
       font-size: 20px;
     }
     .Hero {
-      max-height: 500px;
+      max-height: 450px;
     }
  }
 
@@ -132,7 +141,7 @@
     grid-template-columns: repeat(2, auto);
     line-height: 1.0;
   }
-  
+
   .NameBlock {
     padding: 20px;
   }
