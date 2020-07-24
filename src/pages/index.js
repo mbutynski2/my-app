@@ -60,17 +60,17 @@ const IndexPage = () => (
       </div>
         <div className="Cards">
           <div className="CardGroup">
-            <Card title="React for Designers"
-            text="12 sections"
+            <Card title="Discover"
+            text="Empathize &amp; Define"
             image={require('../images/wallpaper2.jpg')} />
-            <Card title="React for Designers"
-            text="12 sections"
+            <Card title="Design"
+            text="Sketch &amp; Design"
             image={require('../images/wallpaper2.jpg')} />
-            <Card title="React for Designers"
-            text="12 sections"
+            <Card title="Develop"
+            text="Implement &amp; Evaluate"
             image={require('../images/wallpaper2.jpg')} />
-            <Card title="React for Designers"
-            text="12 sections"
+            <Card title="Deploy &amp; Scale"
+            text="Implement &amp; Evaluate"
             image={require('../images/wallpaper2.jpg')} />
           </div>
     </div>
