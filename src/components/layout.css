@@ -4,16 +4,32 @@
  body {
   font-family: 'Open Sans', sans-serif;
    margin: 0;
+   color: #202124;
    font-size: 15px;
    -webkit-font-smoothing: antialiased;
    line-height: 1.3;
  }
 
  a {
-   color: black;
+   color: #202124;
    text-decoration: none;
    font-weight: 600;
+   transition: .5s;
  }
+
+
+
+ /* a:focus {
+  background-color: #faf28d;
+  padding: 0 10px;
+  font-weight: 700;
+  color: #323338;
+}
+
+a:hover img {
+  background-color: white;
+  padding: 0 0px;
+} */ 
 
  .Hero {
    background: url('../images/wallpaper6.jpg');
@@ -34,6 +50,12 @@
    color: white;
    font-size: 50px;
    line-height: 1.6;
+   opacity: 0;
+   animation: HeroAnimation;
+   animation-duration: 3s;
+   animation-delay: 0.1s;
+   animation-fill-mode: forwards;
+   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
  }
 
  .Hero p {
@@ -42,6 +64,8 @@
    line-height: 1.5;
    padding-bottom: 20px;
    padding-top: 10px;
+   animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+   opacity:0;
  }
 
  .Hero a {
@@ -88,6 +112,26 @@
    font-size: 15px;
  }
 
+ .MeetGroup p a:hover {
+  background-color: #ffed00;
+  padding: 0 10px;
+  fot-weight: 700;
+} 
+
+  /* .MeetGroup img a:hover {
+  size: 200px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.25);
+  transform: translateY(-3px) rotateX(10deg);
+ } */
+
+ .NameBlock img {
+   width: 155px;
+ }
+
+ /* .NameBlock img a:hover {
+  width: 160px;
+} */
+
  h2 {
    font-size: 18px;
  }
@@ -116,7 +160,16 @@
   width: auto;
  }
 
-
+@keyframes HeroAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 
 
 
