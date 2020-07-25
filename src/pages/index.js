@@ -73,6 +73,7 @@ const IndexPage = () => (
             text="Implement &amp; Evaluate"
             image={require('../images/scale_img@2x.png')} />
           </div>
+        </div>
     </div>
     <div className="ContactUs">
       <div className="Title">
@@ -80,7 +81,6 @@ const IndexPage = () => (
         <p>Email us at<span className="Underline"><Link to="/">uxuidtcnola@dxc.com</Link></span></p><p>Talk soon!</p>
       </div>
     </div>
-  </div>
 </Layout>    
 )
 

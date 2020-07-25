@@ -149,8 +149,9 @@ a:hover img {
  }
 
  .OurProcess {
-   /* background-color: #efefef;  */
+   background-color: #efefef;  
    height: 600px;
+   z-index: 8;
  }
 
  .CardGroup {
@@ -167,6 +168,18 @@ a:hover img {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
   }
+
+  .OurProcess {
+    background-color: #efefef;  
+    height: 700px;
+    z-index: 8;
+    padding: 0px 40px 100px;
+  }
+
+  .Title {
+    padding: 20px 0px 20px 0px;
+  }
+
  }
 
  @media (max-width: 720px) {
@@ -230,4 +243,10 @@ a:hover img {
   .NameBlock {
     padding: 20px;
   }
-}
+
+  .OurProcess { 
+    background-color: #efefef;  
+   height: 800px;
+   z-index: 8;
+  }
+ }

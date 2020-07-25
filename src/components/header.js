@@ -3,9 +3,35 @@ import PropTypes from "prop-types"
 import React from "react"
 import './header.css'
 
-const Header = ({ siteTitle }) => (
-  <header>
-    <div className="Header">
+class Header extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      hasScrolled: false
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll',
+    this.handleScroll)
+  }
+
+handleScroll = (event) => {
+  const scrollTop = window.pageYOffset
+
+  if (scrollTop > 50) {
+    this.setState({ hasScrolled: true })
+  } else {
+    this.setState({ hasScrolled: false })
+  }
+}
+
+
+  render() {
+    return (
+    <div className={this.state.hasScrolled ?
+    'Header HeaderScrolled' : 'Header'}>
       <div className="HeaderGroup">
         <Link to="/"><img src={require ('../images/logo.svg')} width="40" /></Link>
         <Link to="/Our Process">Our Process</Link>
@@ -14,15 +40,17 @@ const Header = ({ siteTitle }) => (
         <Link to="/Let's Connect"><button>Let's Connect</button></Link>
       </div>
     </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+    )
+  }
 }
 
-Header.defaultProps = {
-  siteTitle: ``,
-}
+
+// Header.propTypes = {
+//   siteTitle: PropTypes.string,
+// }
+
+// Header.defaultProps = {
+//   siteTitle: ``,
+// }
 
 export default Header
