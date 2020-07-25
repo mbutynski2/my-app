@@ -62,16 +62,16 @@ const IndexPage = () => (
           <div className="CardGroup">
             <Card title="Discover"
             text="Empathize &amp; Define"
-            image={require('../images/wallpaper2.jpg')} />
+            image={require('../images/discover_img@2x.png')} />
             <Card title="Design"
             text="Sketch &amp; Design"
-            image={require('../images/wallpaper2.jpg')} />
+            image={require('../images/design_img@2x.png')} />
             <Card title="Develop"
             text="Implement &amp; Evaluate"
-            image={require('../images/wallpaper2.jpg')} />
+            image={require('../images/develop_img@2x.png')} />
             <Card title="Deploy &amp; Scale"
             text="Implement &amp; Evaluate"
-            image={require('../images/wallpaper2.jpg')} />
+            image={require('../images/scale_img@2x.png')} />
           </div>
     </div>
     <div className="ContactUs">
