@@ -11,8 +11,9 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>User Experience is <span className="Underline">essential</span> for digital transformation</h1>
-        <p>Get to know the UX team, our process, <br />and see some of our latest works from the <br />New Orleans Digital Delivery Center.</p>
+        <h1>Hi. I'm <span className="Underline">Mandi Butynski.</span></h1>
+        <h1>I am a creative problem solver.</h1>
+        <p>My current position is UX/UI Capability Lead and Senior UX Designer at DXC Technology. I completed my design training at Savannah College of Art and Design. I am a self-taught coder and UX process practicioner where I advocate for the user.</p>
         {/* <div>
         <Link to="/using-typescript/">Portfolio</Link>
         </div> */}

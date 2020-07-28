@@ -34,10 +34,10 @@ handleScroll = (event) => {
     'Header HeaderScrolled' : 'Header'}>
       <div className="HeaderGroup">
         <Link to="/"><img src={require ('../images/logo.svg')} width="40" /></Link>
-        <Link to="/Our Process">Our Process</Link>
-        <Link to="/About Us">About Us</Link>
-        <Link to="/Portfolio">Portfolio</Link>
-        <Link to="/Let's Connect"><button>Let's Connect</button></Link>
+        <Link to="/Home">Home</Link>
+        <Link to="/Work">Work</Link>
+        <Link to="/Play">Play</Link>
+        <Link to="/About">About</Link>
       </div>
     </div>
     )

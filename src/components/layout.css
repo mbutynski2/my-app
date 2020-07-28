@@ -40,9 +40,9 @@ a:hover img {
 
  .HeroGroup {
    margin: 0 auto;
-   max-width: 500px;
-   padding: 150px 50px;
-   text-align: center;
+   max-width: 800px;
+   padding: 150px 200px;
+   text-align: left;
  }
 
  .Hero h1 {
