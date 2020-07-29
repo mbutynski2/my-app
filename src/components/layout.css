@@ -32,7 +32,7 @@ a:hover img {
 } */ 
 
  .Hero {
-   background: url('../images/wallpaper6.jpg');
+   /* background: url('../images/wallpaper6.jpg'); */
    height: 600px;
    background-size: cover;
    background-position: center;
@@ -42,13 +42,15 @@ a:hover img {
    margin: 0 auto;
    max-width: 800px;
    padding: 150px 200px;
-   text-align: left;
+   text-align: center;
  }
 
  .Hero h1 {
    margin: 0;
-   color: white;
-   font-size: 50px;
+   padding-top: 50px;
+   color: #333333;
+   font-size: 56px;
+   font-weight: lighter;
    line-height: 1.6;
    opacity: 0;
    animation: HeroAnimation;
@@ -59,9 +61,9 @@ a:hover img {
  }
 
  .Hero p {
-   color: rgba(255, 255, 255, 0.8);
-   font-size: 25px;
-   line-height: 1.5;
+   color: #333333;
+   font-size: 20px;
+   line-height: 1.75;
    padding-bottom: 20px;
    padding-top: 10px;
    animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -79,6 +81,10 @@ a:hover img {
    border-radius: 10px;
    text-decoration: none;
  }
+
+.Bolder {
+  font-weight: 700;
+}
 
  footer {
    font-size: 12px;
@@ -165,6 +171,10 @@ a:hover img {
 
  .Underline {
   border-bottom: 3px solid #FFED00;
+}
+
+.Red {
+  color: #FD475D;
 }
 
 .ContactUs {

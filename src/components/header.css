@@ -7,23 +7,23 @@
 }
 
 .HeaderScrolled {
-    background: rgba(0,0,0, 0.8);
+    background: rgba(0,0,0, 0.4);
     padding: 15px 0;
     backdrop-filter: blur(20px);
 }
 
 .HeaderGroup {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(5, auto);
     align-items: center;
-    justify-items: right;
+    justify-items: center;
 }
 
 .Header a {
-    color: white;
-    font-weight: 700;
+    color: #333333;
+    font-weight: 600;
     letter-spacing: .5px;
     text-decoration: none;
 }
