@@ -92,8 +92,12 @@ a:hover img {
  }
 
  .Title {
-   font-size: 20px;
-   text-align: center;
+   margin: 0 auto;
+   max-width: 800px;
+   font-size: 14px;
+   text-transform: uppercase;
+   color: #757678;
+   text-align: left;
    padding: 20px 0px 50px 0px;
  }
 
@@ -152,6 +156,14 @@ a:hover img {
 
  h3 {
    font-size: 15px;
+ }
+
+ h4 {
+   font-size: 14px;
+   font-weight: normal;
+   text-transform: uppercase;
+   color: #757678;
+
  }
 
  .OurProcess {

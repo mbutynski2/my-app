@@ -19,62 +19,14 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="Title">
-      <h1>Meet the Team</h1>
-      <div className="MeetGroup">
-        <div className="NameBlock">
-          <Link to="/"><img src={require ('../images/profile_mandi@2x.png')} /></Link>
-          <h2>Mandi Butynski</h2>
-          <h3>UX/ UI Capability Lead</h3>
-          <p><span className="Underline"><Link to="/">Learn more</Link></span></p>
-        </div>
-        <div className="NameBlock">
-          <Link to="/"><img src={require ('../images/profile_katie@2x.png')}/></Link>
-          <h2>Katie Riles</h2>
-          <h3>Sr. UX Designer</h3>
-          <p><span className="Underline"><Link to="/">Learn more</Link></span></p>
-        </div>
-        <div className="NameBlock">
-          <Link to="/"><img src={require ('../images/profile_mansi@2x.png')}/></Link>
-          <h2>Mansi Sundriyal</h2>
-          <h3>Sr. UX/UI Developer</h3>
-          <p><span className="Underline"><Link to="/">Learn more</Link></span></p>
-        </div>
-        <div className="NameBlock">
-          <Link to="/"><img src={require ('../images/profile_merilly@2x.png')}/></Link>
-          <h2>Merilly Ruglas</h2>
-          <h3>AV/VR Designer</h3>
-          <p><span className="Underline"><Link to="/">Learn more</Link></span></p>
-        </div>
-        <div className="NameBlock">
-          <Link to="/"><img src={require ('../images/profile_vicky@2x.png')}/></Link>
-          <h2>Vicky Tran</h2>
-          <h3>UX/UI Developer</h3>
-          <p><span className="Underline"><Link to="/">Learn more</Link></span></p>
-        </div>
+      <h4>My Recent Work</h4>
+    </div>
+    <div className="Portfolio">
+      <div className="PortfolioGroup">
+      <Link to="/"><img src={require ('../images/logo.svg')}/><span className="Name">Mandi Butynski</span></Link>
       </div>
     </div>
-    <div className="OurProcess">
-      <div className="Title">
-        <h1>Our Process</h1>
-        <p>Together we have crafted a method<br /> of delivering exeptional user experiences<br /> that drive results and delight.</p>
-      </div>
-        <div className="Cards">
-          <div className="CardGroup">
-            <Card title="Discover"
-            text="Empathize &amp; Define"
-            image={require('../images/discover_img@2x.png')} />
-            <Card title="Design"
-            text="Sketch &amp; Design"
-            image={require('../images/design_img@2x.png')} />
-            <Card title="Develop"
-            text="Implement &amp; Evaluate"
-            image={require('../images/develop_img@2x.png')} />
-            <Card title="Deploy &amp; Scale"
-            text="Implement &amp; Evaluate"
-            image={require('../images/scale_img@2x.png')} />
-          </div>
-        </div>
-    </div>
+      
     <div className="ContactUs">
       <div className="Title">
         <h1>Contact US</h1>

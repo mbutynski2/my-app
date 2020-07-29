@@ -33,7 +33,7 @@ handleScroll = (event) => {
     <div className={this.state.hasScrolled ?
     'Header HeaderScrolled' : 'Header'}>
       <div className="HeaderGroup">
-        <Link to="/"><img src={require ('../images/logo.svg')} width="40" /></Link>
+        <Link to="/"><img src={require ('../images/logo.svg')} width="40" /><span className="Name">Mandi Butynski</span></Link>
         <Link to="/Home">Home</Link>
         <Link to="/Work">Work</Link>
         <Link to="/Play">Play</Link>
