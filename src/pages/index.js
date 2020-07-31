@@ -35,8 +35,8 @@ const IndexPage = () => (
       <div className="PortfolioGroup">
         <Link to="/"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
         <div>
-        <h2>Analytics +</h2>
-        <h3>Leadership Reporting Application</h3>
+        <h2>Innovation Tracker</h2>
+        <h3>Manufacturing and Automotive Tool</h3>
         </div>
       </div>
     </div>
@@ -45,8 +45,8 @@ const IndexPage = () => (
       <div className="PortfolioGroup">
         <Link to="/"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
         <div>
-        <h2>Analytics +</h2>
-        <h3>Leadership Reporting Application</h3>
+        <h2>FlightPro</h2>
+        <h3>Flight Attendant Tablet Application</h3>
         </div>
       </div>
     </div>
@@ -55,8 +55,8 @@ const IndexPage = () => (
       <div className="PortfolioGroup">
         <Link to="/"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
         <div>
-        <h2>Analytics +</h2>
-        <h3>Leadership Reporting Application</h3>
+        <h2>UX Process Design</h2>
+        <h3>UX Capability at the NOLA DTC</h3>
         </div>
       </div>
     </div>
