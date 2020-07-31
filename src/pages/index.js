@@ -23,16 +23,49 @@ const IndexPage = () => (
     </div>
     <div className="Portfolio">
       <div className="PortfolioGroup">
-      <Link to="/"><img src={require ('../images/logo.svg')}/><span className="Name">Mandi Butynski</span></Link>
+        <Link to="/"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
+        <div>
+        <h2>Analytics +</h2>
+        <h3>Leadership Reporting Application</h3>
+        </div>
+      </div>
+    </div>
+
+    <div className="Portfolio">
+      <div className="PortfolioGroup">
+        <Link to="/"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
+        <div>
+        <h2>Analytics +</h2>
+        <h3>Leadership Reporting Application</h3>
+        </div>
+      </div>
+    </div>
+
+    <div className="Portfolio">
+      <div className="PortfolioGroup">
+        <Link to="/"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
+        <div>
+        <h2>Analytics +</h2>
+        <h3>Leadership Reporting Application</h3>
+        </div>
+      </div>
+    </div>
+
+    <div className="Portfolio">
+      <div className="PortfolioGroup">
+        <Link to="/"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
+        <div>
+        <h2>Analytics +</h2>
+        <h3>Leadership Reporting Application</h3>
+        </div>
       </div>
     </div>
       
-    <div className="ContactUs">
+
       <div className="Title">
-        <h1>Contact US</h1>
-        <p>Email us at<span className="Underline"><Link to="/">uxuidtcnola@dxc.com</Link></span></p><p>Talk soon!</p>
+        <p>Let's connect<span className="Underline"><Link to="/">bymandidesign@mac.com</Link></span></p><p>Talk soon!</p>
       </div>
-    </div>
+
 </Layout>    
 )
 
