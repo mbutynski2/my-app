@@ -26,44 +26,49 @@ const IndexPage = () => (
         <Link to="/"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
         <div>
         <h2>Analytics +</h2>
-        <h3>Leadership Reporting Application</h3>
+        <h5>Leadership Reporting Application</h5>
         </div>
       </div>
     </div>
 
     <div className="Portfolio">
-      <div className="PortfolioGroup">
-        <Link to="/"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
+      <div className="PortfolioGroup Teal">
+        <Link to="/"><img src={require ('../images/InnTracker@2x.png')}/></Link>
         <div>
         <h2>Innovation Tracker</h2>
-        <h3>Manufacturing and Automotive Tool</h3>
+        <h5>Manufacturing and Automotive Tool</h5>
         </div>
       </div>
     </div>
 
     <div className="Portfolio">
-      <div className="PortfolioGroup">
-        <Link to="/"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
+      <div className="PortfolioGroup Pink">
+        <Link to="/"><img src={require ('../images/FlightPro@2x.png')}/></Link>
         <div>
         <h2>FlightPro</h2>
-        <h3>Flight Attendant Tablet Application</h3>
+        <h5>Flight Attendant Tablet Application</h5>
         </div>
       </div>
     </div>
 
     <div className="Portfolio">
-      <div className="PortfolioGroup">
-        <Link to="/"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
+      <div className="PortfolioGroup Brown">
+        <Link to="/"><img src={require ('../images/UXProcess@2x.png')}/></Link>
         <div>
         <h2>UX Process Design</h2>
-        <h3>UX Capability at the NOLA DTC</h3>
+        <h5>UX Capability at the NOLA DTC</h5>
         </div>
       </div>
     </div>
       
 
-      <div className="Title">
-        <p>Let's connect<span className="Underline"><Link to="/">bymandidesign@mac.com</Link></span></p><p>Talk soon!</p>
+      <div className="Contact">
+        <h3>Let's connect</h3>
+        <p>Get in touch with opportunities or just to say hi!</p>
+        <div className="ContactGroup">
+        <Link to="/"><img src={require ('../images/LinkedIn.png')}/></Link>
+        <Link to="/"><img src={require ('../images/MailIcon.png')}/></Link>
+        </div>
       </div>
 
 </Layout>    

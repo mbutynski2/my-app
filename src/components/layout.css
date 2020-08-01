@@ -122,56 +122,41 @@ a:hover img {
   grid-template-columns: repeat(2, auto);
   align-items: center;
   justify-items: left;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 .PortfolioGroup img {
   max-width: 400px;
+  max-height: 280px;
   margin: 20px;
   transition: 0.8 cubic-bezier(0.2, 0.8, 0.2, 1);
 } 
 
-
- .MeetGroup {
-  max-width: 1200px;
+.Contact {
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  /* grid-gap: 10px;
-  margin: 50px 0; */
-  align-items: center;
-  justify-items: center;
- }
-
- .MeetGroup p {
-   font-size: 15px;
- }
-
- .MeetGroup p a:hover {
-  background-color: #ffed00;
-  padding: 0 10px;
-  font-weight: 700;
-} 
-
-.ContactUs a:hover {
-  background-color: #ffed00;
-  padding: 0 10px;
-  font-weight: 700;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
 }
 
-  /* .MeetGroup img a:hover {
-  size: 200px;
-  box-shadow: 0 10px 20px rgba(0,0,0,.25);
-  transform: translateY(-3px) rotateX(10deg);
- } */
+.ContactGroup {
+  margin: 0 auto;
+  max-width: 150px;
+  max-height: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  justify-items: center;
+  padding: 20px;
+}
 
- .NameBlock img {
-   width: 155px;
- }
+.ContactGroup img {
+  width: 40px;
+}
 
- /* .NameBlock img a:hover {
-  width: 160px;
-} */
+
+
 
 h1 {
   margin: 0;
@@ -185,8 +170,8 @@ h1 {
 
  h3 {
    margin: 0;
-   font-size: 15px;
-   font-weight: normal;
+   font-size: 20px;
+   font-weight: 600;
  }
 
  h4 {
@@ -196,6 +181,24 @@ h1 {
    color: #757678;
 
  }
+
+ h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+ .Teal {
+   background: #AED4D5;
+ }
+
+ .Pink {
+  background: #FEB396;
+}
+
+.Brown {
+  background: #CDBCB5;
+}
 
  .OurProcess {
    background-color: #efefef;  
@@ -220,16 +223,8 @@ h1 {
   color: #FD475D;
 }
 
-.ContactUs {
-  line-height: 40px;
-}
 
-.ContactUs span {
- text-align: center;
- line-height: 20px;
- border-bottom: 3px solid #FFED00;
- width: auto;
-}
+
 
 @keyframes HeroAnimation {
   0% {
