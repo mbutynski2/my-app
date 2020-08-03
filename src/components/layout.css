@@ -220,8 +220,33 @@ h1 {
   color: #FD475D;
 }
 
+.HeroInterior {
+  margin: 100px auto;
+}
 
+.Intro {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: left;
+}
 
+.IntroGroup {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  justify-items: left;
+  padding: 20px;
+}
+
+.Content {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+.Content p {
+  line-height: 2.3;
+}
 
 @keyframes HeroAnimation {
   0% {
