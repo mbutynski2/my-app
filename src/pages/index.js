@@ -23,7 +23,7 @@ const IndexPage = () => (
     </div>
     <div className="Portfolio">
       <div className="PortfolioGroup">
-        <Link to="/"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
+        <Link to="Work"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
         <div>
         <h2>Analytics +</h2>
         <h5>Leadership Reporting Application</h5>
