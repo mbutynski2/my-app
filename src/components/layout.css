@@ -17,6 +17,9 @@
    transition: .5s;
  }
 
+ a:active {
+   font-weight: 600;
+ }
 
 
  /* a:focus {
@@ -46,7 +49,7 @@ a:hover img {
 
  .Hero h1 {
    margin: 0;
-   padding-top: 50px;
+   padding-top: 30px;
    color: #333333;
    font-size: 52px;
    font-weight: lighter;
@@ -125,10 +128,11 @@ a:hover img {
 
 .Item-a {
   padding-left: 135px;
+  margin: 0px;
 }
 
 .Item-b {
-  padding-left: 35px;
+  padding-left: 68px;
 }
 
 .PortfolioGroup img {
