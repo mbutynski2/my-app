@@ -33,7 +33,7 @@ const IndexPage = () => (
 
     <div className="Portfolio">
       <div className="PortfolioGroup Teal">
-        <Link to="/"><img src={require ('../images/InnTracker@2x.png')}/></Link>
+        <Link to="/"><img className="Item-a" src={require ('../images/InnTracker@2x.png')}/></Link>
         <div>
         <h2>Innovation Tracker</h2>
         <h5>Manufacturing and Automotive Tool</h5>
@@ -43,7 +43,7 @@ const IndexPage = () => (
 
     <div className="Portfolio">
       <div className="PortfolioGroup Pink">
-        <Link to="/"><img src={require ('../images/FlightPro@2x.png')}/></Link>
+        <Link to="/"><img className="Item-b" src={require ('../images/FlightPro@2x.png')}/></Link>
         <div>
         <h2>FlightPro</h2>
         <h5>Flight Attendant Tablet Application</h5>

@@ -118,10 +118,17 @@ a:hover img {
   background: #F9CC88;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: 450px auto;
   align-items: center;
-  justify-items: left;
   line-height: 1.5;
+}
+
+.Item-a {
+  padding-left: 135px;
+}
+
+.Item-b {
+  padding-left: 35px;
 }
 
 .PortfolioGroup img {
