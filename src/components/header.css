@@ -16,16 +16,18 @@
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: 200px auto 100px 100px  100px;
     align-items: center;
-    justify-items: center;
+    justify-items: right;
 }
 
 .Header a {
     color: #333333;
-    font-weight: 600;
+    font-weight: normal;
     letter-spacing: .5px;
     text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 .Header button {
@@ -48,6 +50,7 @@
 }
 
 .Name {
+    padding-right: 33px;
 
 }
 
