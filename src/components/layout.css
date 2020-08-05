@@ -265,6 +265,7 @@
 
 .IntroGroup p {
   margin-top: 6px;
+  padding: 0;
 }
 
 .Content {
@@ -275,6 +276,7 @@
 
 .Content p {
   line-height: 2.3;
+  padding: 0;
 }
 
 .Content img {
@@ -292,10 +294,13 @@
   color: #FD475D;
 }
 
-.Callout h3, p {
+.Callout p {
   padding: 20px;
 }
 
+.Callout h3 {
+  padding: 20px;
+}
 
 
 
