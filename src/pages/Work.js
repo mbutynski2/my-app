@@ -10,15 +10,14 @@ import Card from "../components/Card"
 const Work = () => (
   <Layout>
     <SEO title="Work" />
-    <div className="Portfolio">
-      <div className="PortfolioGroup HeroInterior">
+    <div className="CasestudyHero">
         <Link to="Work"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
-        <div>
+      </div>
+
+      <div className="CasestudyTitle">
         <h2>Analytics +</h2>
         <h5>Leadership Reporting Application</h5>
         </div>
-      </div>
-    </div>
 
     <div className="Intro">
         <div className="IntroGroup">
@@ -31,8 +30,12 @@ const Work = () => (
 
     <div className="Content">
         <h4>Overview</h4>
-        <p>DXC was assigned as the delivery center to develop an application for a fortune 250 IT company based on the UX design by a third-party design firm. This is a designer led initiative by our client so it is critical to highlight our front-end development capability. My role was the UX/UI Lead Technical Developer where I was tasked to outline specifics of the UI, formalize execution of the front-end, and review the design before stakeholder review. </p>
+        <p>A fortune 250 IT company requested DXC to develop an application designed by a third-party firm. In my role as the UX/UI Lead Technical Developer, I was tasked to outline specifics of  the UI, formalize execution of the front-end,  and facilitate communication with all stakeholders.</p>
+        <div><img src={require ('../images/analytics_chart2.png')}/></div>
     </div>
+
+    
+    
    
 
       <div className="Contact">

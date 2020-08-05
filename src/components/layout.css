@@ -5,7 +5,7 @@
   font-family: 'Open Sans', sans-serif;
    margin: 0;
    color: #202124;
-   font-size: 15px;
+   font-size: 18px;
    -webkit-font-smoothing: antialiased;
    line-height: 1.3;
  }
@@ -21,6 +21,37 @@
    font-weight: 600;
  }
 
+ h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+ h2 {
+   margin: 0;
+   font-size: 30px;
+ }
+
+ h3 {
+   margin: 0;
+   font-size: 20px;
+   font-weight: 600;
+ }
+
+ h4 {
+   font-size: 14px;
+   font-weight: normal;
+   text-transform: uppercase;
+   color: #757678;
+
+ }
+
+ h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
  .Hero {
    margin: 0 auto;
    height: 550px;
@@ -30,7 +61,7 @@
 
  .HeroGroup {
    margin: 0 auto;
-   max-width: 800px;
+   max-width: 840px;
    padding: 150px 0px 50px 0px;
  }
 
@@ -82,7 +113,7 @@
 
  .Title {
    margin: 0 auto;
-   max-width: 800px;
+   max-width: 840px;
    font-size: 14px;
    text-transform: uppercase;
    color: #757678;
@@ -104,7 +135,7 @@
 
  .PortfolioGroup {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 840px;
   background: #F9CC88;
   margin: 0 auto;
   display: grid;
@@ -131,8 +162,7 @@
 
 .Contact {
   margin: 0 auto;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 840px;
   text-align: center;
   padding: 40px;
 }
@@ -155,35 +185,8 @@
 
 
 
-h1 {
-  margin: 0;
-  font-size: 40px;
-}
 
- h2 {
-   margin: 0;
-   font-size: 30px;
- }
 
- h3 {
-   margin: 0;
-   font-size: 20px;
-   font-weight: 600;
- }
-
- h4 {
-   font-size: 14px;
-   font-weight: normal;
-   text-transform: uppercase;
-   color: #757678;
-
- }
-
- h5 {
-  margin: 0;
-  font-size: 18px;
-  font-weight: normal;
-}
 
  .Teal {
    background: #AED4D5;
@@ -220,13 +223,37 @@ h1 {
   color: #FD475D;
 }
 
-.HeroInterior {
+
+
+.CasestudyHero {
   margin: 100px auto;
+  padding-top: 100px;
+  background: #F9CC88;
+  margin: 0 auto;
+  align-items: center;
+  line-height: 1.5;
+  max-height: 500px;
+}
+
+.CasestudyHero img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 45%;
+  max-height: 500px%;
+}
+
+.CasestudyTitle {
+  margin: 0 auto;
+  max-width: 840px;
+  text-align: left;
+  padding-top: 20px;
+  line-height: 1.7;
 }
 
 .Intro {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 840px;
   text-align: left;
 }
 
@@ -235,18 +262,37 @@ h1 {
   grid-template-columns: repeat(2, auto);
   align-items: center;
   justify-items: left;
-  padding: 20px;
+}
+
+.IntroGroup p {
+  margin-top: 6px;
 }
 
 .Content {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 840px;
   text-align: left;
 }
 
 .Content p {
   line-height: 2.3;
 }
+
+.Content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-style: solid;
+  border-color: #E0E0E0;
+}
+
+
+
+
+
+
+
 
 @keyframes HeroAnimation {
   0% {
