@@ -30,19 +30,23 @@ const Work = () => (
 
     <div className="Content">
         <h4>Overview</h4>
-        <p>A fortune 250 IT company requested DXC to develop an application designed by a third-party firm. In my role as the UX/UI Lead Technical Developer, I was tasked to outline specifics of  the UI, formalize execution of the front-end,  and facilitate communication with all stakeholders.</p>
+        <p>A fortune 250 IT company requested DXC to develop an application designed by a third-party firm. In my role as the UX/UI Lead Technical Developer, I was tasked to outline specifics of the UI, formalize execution of the front-end, and facilitate communication with all stakeholders.</p>
             <div><img src={require ('../images/analytics_chart.png')}/>
             </div>
+    </div>
+
+    <div className=" Content Callout">
+        <h3>Goal</h3>
+        <p>The goal was to deliver an MVP for client beta testing in 14 weeks. A side goal was to show our client and the design firm that we are strong in development and can partner together seamlessly for future projects.</p>
     </div>
 
     <div className="Contact">
         <h3>Let's connect</h3>
         <p>Get in touch with opportunities or just to say hi!</p>
-    </div>
-    
     <div className="ContactGroup">
         <Link to="/"><img src={require ('../images/LinkedIn.png')}/></Link>
          <Link to="/"><img src={require ('../images/MailIcon.png')}/></Link>
+    </div>
     </div>
 
 </Layout>    

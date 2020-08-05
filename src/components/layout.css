@@ -286,8 +286,15 @@
   border-color: #E0E0E0;
 }
 
+.Callout {
+  margin-top: 20px;
+  background-color: #FFCCBF;
+  color: #FD475D;
+}
 
-
+.Callout h3, p {
+  padding: 20px;
+}
 
 
 
