@@ -12,12 +12,12 @@ const Work = () => (
     <SEO title="Work" />
     <div className="CasestudyHero">
         <Link to="Work"><img src={require ('../images/AnalyticsHero@2x.png')}/></Link>
-      </div>
+    </div>
 
-      <div className="CasestudyTitle">
+    <div className="CasestudyTitle">
         <h2>Analytics +</h2>
         <h5>Leadership Reporting Application</h5>
-        </div>
+    </div>
 
     <div className="Intro">
         <div className="IntroGroup">
@@ -31,21 +31,19 @@ const Work = () => (
     <div className="Content">
         <h4>Overview</h4>
         <p>A fortune 250 IT company requested DXC to develop an application designed by a third-party firm. In my role as the UX/UI Lead Technical Developer, I was tasked to outline specifics of  the UI, formalize execution of the front-end,  and facilitate communication with all stakeholders.</p>
-        <div><img src={require ('../images/analytics_chart2.png')}/></div>
+            <div><img src={require ('../images/analytics_chart.png')}/>
+            </div>
     </div>
 
-    
-    
-   
-
-      <div className="Contact">
+    <div className="Contact">
         <h3>Let's connect</h3>
         <p>Get in touch with opportunities or just to say hi!</p>
-        <div className="ContactGroup">
+    </div>
+    
+    <div className="ContactGroup">
         <Link to="/"><img src={require ('../images/LinkedIn.png')}/></Link>
-        <Link to="/"><img src={require ('../images/MailIcon.png')}/></Link>
-        </div>
-      </div>
+         <Link to="/"><img src={require ('../images/MailIcon.png')}/></Link>
+    </div>
 
 </Layout>    
 )
